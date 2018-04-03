@@ -1,0 +1,13 @@
+github-organization-folder
+workflow-aggregator
+pipeline-stage-view
+pipeline-utility-steps
+build-with-parameters
+build-pipeline-plugin
+parameterized-trigger
+copyartifact
+
+
+git
+github
+gitlab-plugin
