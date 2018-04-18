@@ -1,18 +1,44 @@
-FROM jenkins/jenkins:lts
+FROM jenkins/jenkins:lts-alpine
+
+MAINTAINER Oscar Schnake "oschnake@optimisa.cl"
+
+ENV NODE_VERSION 8.11.1
+
+# Switch to root user
+USER root
+
+RUN apk add --no-cache \
+        libstdc++ \
+    && apk add --no-cache --virtual .build-deps \
+        binutils-gold \
+        g++ \
+        gcc \
+        libgcc \
+        linux-headers \
+        make \
+        python \
+    && cd /tmp \
+    && curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION.tar.xz" \
+    && tar -xf "node-v$NODE_VERSION.tar.xz" \
+    && cd "node-v$NODE_VERSION" \
+    && ./configure \
+    && make -j$(getconf _NPROCESSORS_ONLN) \
+    && make install \
+    && apk del .build-deps \
+    && cd .. \
+    && rm -Rf "node-v$NODE_VERSION" \
+    && rm "node-v$NODE_VERSION.tar.xz"
 
 
-# switchs to root user
-USER 0
+ENV YARN_VERSION 1.5.1
 
-# disabled initial setup
-ENV JAVA_OPTS="-Djenkins.install.runSetupWizard=false"
+RUN curl -fSL -o /usr/local/bin/yarn "https://github.com/yarnpkg/yarn/releases/download/v$YARN_VERSION/yarn-$YARN_VERSION.js" \
+    && chmod +x /usr/local/bin/yarn
 
-# pre install some plugins
-COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
-RUN /usr/local/bin/install-plugins.sh < /usr/share/jenkins/ref/plugins.txt
 
-# default user
-COPY default-user.groovy /usr/share/jenkins/ref/init.groovy.d/
+ADD package.json /tmp/package.json
+RUN cd /tmp && npm install
+RUN mkdir -p opt/app && cp -a ./tmp/node_modules /opt/app
 
-# switchs to default user
-USER ${user}
+# Switch to jenkins user
+USER jenkins

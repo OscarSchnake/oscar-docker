@@ -1,0 +1,500 @@
+   14  pwd
+   15  npm start
+   16  npm start
+   17  exit
+   18  cd Cloud/
+   19  cd control-horario/client/
+   20  npm start
+   21  npm start
+   22  pwd
+   23  npm start
+   24  exit
+   25  pwd
+   26  ls
+   27  cd ..
+   28  ls
+   29  pwd
+   30  cd ..
+   31  ls
+   32  cd Capacitación\ Mobile/
+   33  ls
+   34  cd Angular
+   35  ls
+   36  cd oscar_ang/
+   37  ls
+   38  cd AppLista/
+   39  npm start
+   40  cd
+   41  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   42  exit
+   43  cd Cloud/
+   44  cd ../..
+   45  pwd
+   46  pwd
+   47  ls
+   48  cd ..
+   49  pwd
+   50  cd..
+   51  cd ..
+   52  ls
+   53  cd Capacitación\ Mobile/
+   54  pwd
+   55  ls
+   56  mkdir devops
+   57  cd devops/
+   58  cd
+   59  clrear
+   60  clear
+   61  cd 
+   62  cd ../../Capacitación\ Mobile/
+   63  ls
+   64  cd devops
+   65  pwd
+   66  git clone https://github.com/MobDevCL/courses-devops-infra.git
+   67  cd courses-devops-infra/
+   68  ls
+   69  ls -la
+   70  ls
+   71  docker-compose app
+   72  docker-compose up
+   73  docker-compose up
+   74  docker-compose up
+   75  docker-compose up
+   76  docker-compose up
+   77  docker-compose up
+   78  docker-compose up
+   79  exit
+   80  cd ..
+   81  ls
+   82  cd ..
+   83  ls
+   84  cd Capacitación\ Mobile/
+   85  ls
+   86  cd devops/
+   87  ls -la
+   88  jenkins
+   89  pwd
+   90  docker volume
+   91  docker volume jenkins-data
+   92  docker volume ls
+   93  docker volume inspect coursesdevopsinfra_jenkins-data
+   94  docker ps
+   95  docker ps
+   96  docker ps
+   97  docker exec coursesdevopsinfra_jenkins_1 pwd
+   98  docker exec coursesdevopsinfra_jenkins_2 pwd
+   99  docker exec coursesdevopsinfra_jenkins_1 ls
+  100  docker exec coursesdevopsinfra_jenkins_1 cd /home
+  101  docker exec coursesdevopsinfra_jenkins_1 'cd /home'
+  102  docker exec coursesdevopsinfra_jenkins_1 "cd /home"
+  103  docker exec coursesdevopsinfra_jenkins_1 ls -la
+  104  docker exec coursesdevopsinfra_jenkins_1 cd home
+  105  docker exec -ti coursesdevopsinfra_jenkins_1 bash
+  106  pwd
+  107  ls
+  108  ls -la
+  109  cd ..
+  110  ls
+  111  mkdir devops2
+  112  cd devops2
+  113  exit
+  114  pwd
+  115  cd ..
+  116  cd ..
+  117  cd Capacitación\ Mobile/
+  118  ls
+  119  cd devops2
+  120  ls
+  121  docker build .
+  122  docker build .
+  123  docker build .
+  124  docker build -t devopti .
+  125  docker build -t devopti .
+  126  docker build -t devopti .
+  127  docker build -t devopti .
+  128  docker build -t devopti .
+  129  docker build -t devopti .
+  130  docker build -t devopti .
+  131  docker build -t devopti .
+  132  pwd
+  133  ls
+  134  cat Dockerfile 
+  135  docker build -t devopti .
+  136  docker create devopti
+  137  docker run c95ab19f1ac381c6d0a484379b08b6678a2ecbc676
+  138  docker run devopti
+  139  docker run
+  140  docker run
+  141  docker run c95ab19f1ac381c6d0a484379b08b6678a2ecbc67673bb16d89a9caf3aaa5d66
+  142  docker run  devopti 
+  143  docker start devopti 
+  144  docker start c95ab19f1ac381c6d0a484379b08b6678a2ecbc67673bb16d89a9caf3aaa5d66
+  145  docker start c95ab19f1ac381c6d0a484379b08b6678a2ecbc67673bb16d89a9caf3aaa5d66
+  146  cd Cloud//control-horario/client/
+  147  cd ../server/
+  148  npm start
+  149  pwd
+  150  git status
+  151  git add .
+  152  git commit -m "Marcas tardías"
+  153  git push *
+  154  git push
+  155  npm start
+  156  pwd
+  157  pwd
+  158  npm start
+  159  ç
+  160  npm start
+  161  exit
+  162  pwd
+  163  cd Cloud/AWSControlHorario/
+  164  ls -la
+  165  ls server_V
+  166  ls
+  167  sh serverPack.sh D 2.5
+  168  ls
+  169  ls client_config/
+  170  cat client_config/ApiConfigDev.js 
+  171  docker ps
+  172  pwd
+  173  cd ..
+  174  pwd
+  175  ls
+  176  cd ..
+  177  cd Capacitación\ Mobile/
+  178  ls
+  179  cd devops2
+  180  ls
+  181  cd courses-devops-project-java-api-docker/
+  182  docker-compose down
+  183  ls
+  184  pwd
+  185  ls -la
+  186  ls
+  187  cat jenkinsfile
+  188  git status
+  189  git add .
+  190  git commit -m "agregado Mr.Jenkins"
+  191  git push
+  192  ls -la
+  193  mv jenkinsfile Jenkinsfile
+  194  git status
+  195  git add .
+  196  git commit -m "cambio a mayuscula de jenkisnfile"
+  197  git push
+  198  ls -la
+  199  pwd
+  200  mv Jenkinsfile xx
+  201  git status
+  202  git add .
+  203  git commit -m 'mv'
+  204  git push
+  205  mv xx Jenkinsfile 
+  206  git commit -m 'Jenkins'
+  207  git status
+  208  git add .
+  209  git push
+  210  git status
+  211  git commit -m 'mv'
+  212  git push
+  213  exit
+  214  cd Cloud/
+  215  ls
+  216  cd control-horario
+  217  cd ..
+  218  cd AWSControlHorario/
+  219  ls -la
+  220  rm eb-activity.log 
+  221  ls server_V
+  222  ls
+  223  sh clientPack.sh D
+  224  sudo su
+  225  pwd
+  226  cd Cloud/AWSControlHorario/
+  227  ls -la
+  228  pwd
+  229  ls -la
+  230  rm data-1522400044276.csv 
+  231  sh clientPack.sh D
+  232  sudo su
+  233  exit
+  234  cd /
+  235  cd Capacitación\ Mobile/
+  236  ls
+  237  cd Angular
+  238  ls
+  239  cd oscar_ang/
+  240  ls -l
+  241  git clone https://github.com/MobDevCL/courses-devops-project-java-dogs.git
+  242  ls -la
+  243  rm -R courses-devops-project-java-dogs/
+  244  ls -l
+  245  mv courses-devops-project-java-dogs kk
+  246  ls -la
+  247  pwd
+  248  git clone https://github.com/OscarSchnake/courses-devops-project-java-dogs.git
+  249  ls -la
+  250  vi Jenkinsfile
+  251  pwd
+  252  ls
+  253  mv Jenkinsfile courses-devops-project-java-dogs/
+  254  cd courses-devops-project-java-dogs/
+  255  git status
+  256  git add .
+  257  git commit -m 'Agregado Jenkinsfile'
+  258  git push
+  259  pwd
+  260  ls -l
+  261  ls -l
+  262  pwd
+  263  ls -la
+  264  git status
+  265  git add .
+  266  git commit -m 'agregado test integrado'
+  267  git push 
+  268  pwd
+  269  ls -la
+  270  exit
+  271  cd /
+  272  cd Capacitación\ Mobile/
+  273  ls
+  274  cd Angular
+  275  ls
+  276  cd oscar_ang/
+  277  ls
+  278  cd AppLista/
+  279  ls
+  280  ls -la
+  281  pwd
+  282  ls
+  283  ls -la
+  284  git status
+  285  git add .
+  286  git commit -m 'agregado jenkinsfile'
+  287  git status
+  288  git add .
+  289  ls -la
+  290  sudo su
+  291  pwd
+  292  cd \
+  293  cd \
+  294  cd /
+  295  ls 
+  296  cd Capacitación\ Mobile/
+  297  exit
+  298  npm start
+  299  cd cli
+  300  cd Cloud/control-horario/client/
+  301  npm start
+  302  npm start
+  303  exit
+  304  cd Cloud/
+  305  cd AWSControlHorario/
+  306  ls
+  307  ls server-V
+  308  ls server_V
+  309  sh serverPack.sh D 2.11
+  310  ls -la
+  311  rm OptChV0.119D.zip 
+  312  sc clientSend.sh D
+  313  sh clientSend.sh D
+  314  pwd
+  315  sh clientPack.sh D
+  316  sudo su
+  317  cd Cloud/AWSControlHorario/
+  318  ls -la
+  319  ls server_V
+  320  sh serverPack.sh 2.9 P
+  321  sh serverPack.sh P 2.9 
+  322  ls server_V
+  323  ls
+  324  pwd
+  325  sudo su
+  326  cd /var
+  327  ls
+  328  ls -la
+  329  cd run
+  330  ls
+  331  ls -la
+  332  cd docker.sock 
+  333  cd /Users/oschnake/Library/Containers/com.docker.docker/Data/s60
+  334  cd /Users/oschnake/Library/Containers/com.docker.docker/Data
+  335  ls -la
+  336  pwd
+  337  cd
+  338  cd Cloud/docker-ejjs/
+  339  docker exec -it jenkins-tutorial bash
+  340  docker exec -it jenkins-tutorials bash
+  341  docker ps
+  342  pwd
+  343  quit
+  344  tquit
+  345  exit
+  346  cd Cloud/
+  347  ls
+  348  cd docker-ejjs/
+  349  ls -la
+  350  docker exec -it CONTAINER_ID /bin/bash
+  351  docker ps
+  352  docker exec -it modest_montalcini /bin/bash
+  353  pwd
+  354  npm
+  355  npm -version
+  356  exit
+  357  cd/
+  358  sudo su
+  359  cd
+  360  pwd
+  361  cd Cloud/ejjs
+  362  ls la
+  363  ls -la
+  364  rm -R helpers
+  365  ls -la
+  366  pwd
+  367  rm .git
+  368  rm -R .git
+  369  rm -Rf .git
+  370  ls
+  371  ls la
+  372  ls -la
+  373  rm -Rf config
+  374  rm -Rf node_modules/
+  375  rm package-lock.json 
+  376  cd routes/
+  377  ls
+  378  ls -l
+  379  rm chEvent.js 
+  380  rm employee.js 
+  381  rm h*
+  382  rm l*
+  383  rm monthly-report.js 
+  384  rm remember-leave.js 
+  385  rm user.js 
+  386  rm weekly-report.js 
+  387  ls
+  388  ls -la
+  389  rm exclusion.js 
+  390  ls -la
+  391  cd ..
+  392  ls -la
+  393  pwd
+  394  ls -la
+  395  npm install
+  396  npm start
+  397  rm -Rf node_modules/
+  398  npm install
+  399  npm start
+  400  cd ..
+  401  ls -l
+  402  git clone https://github.com/OscarSchnake/ejjs.git
+  403  mv ejjs ejjs2
+  404  git clone https://github.com/OscarSchnake/ejjs.git
+  405  ls ejjs
+  406  cd ejjs
+  407  ls -la
+  408  cd ..
+  409  pwd
+  410  cp -R ejjs2 ejjs
+  411  ls
+  412  rmdir ejjs2
+  413  cd ejjs2
+  414  ls -la
+  415  ls -la
+  416  pwd
+  417  cd ..
+  418  ls 
+  419  ls -la
+  420  cd 
+  421  cd Cloud/ejjs/
+  422  sl -l
+  423  ls -la
+  424  cd ..
+  425  ls -la
+  426  cd ejjs/
+  427  ls
+  428  ls -la
+  429  git status
+  430  cp ../control-horario/server/.gitignore .
+  431  cat .gitignore 
+  432  vi .gitignore 
+  433  ls -la
+  434  npm i
+  435  git status
+  436  git add .
+  437  git commit -m 'git inicial'
+  438  pit push 
+  439  git push
+  440  cd ..
+  441  cd ..
+  442  ls -la
+  443  pwd
+  444  cd Cloud/
+  445  ls -la
+  446  mkdir docker-ejjs
+  447  rmdir docker-ejjs/
+  448  git clone https://github.com/OscarSchnake/docker-ejjs.git
+  449  cd docker-ejjs/
+  450  vi README.md
+  451  vi plugins.txt
+  452  vi Dockerfile
+  453  docker run   --rm   -u root   -p 8080:8080   -v jenkins-data:/var/jenkins_home \ 
+  454    -v /var/run/docker.sock:/var/run/docker.sock   -v "$HOME":/home \ 
+  455   docker run --rm -u root -p8080:8080 -v jenkins-data:/var/jenkins_home -v /var/run/docker.sock:/var/runer/docker.sock -v "$HOME":/home jenkinsci/blueocean
+  456  sudo su
+  457  sudo su
+  458   docker run --rm -u root -p8080:8080 -v jenkins-data:/var/jenkins_home -v /var/run/docker.sock:/var/runer/docker.sock -v "$HOME":/home jenkinsci/blueocean
+  459  exit
+  460  pwd
+  461  cd /Capacitación\ Mobile
+  462  ls
+  463  ls -la
+  464  cd angular
+  465  ls
+  466  ls -la
+  467  cd oscar_ang/
+  468  ls
+  469  ls -la
+  470  cd oscar-docker/
+  471  ls -la
+  472  cat Dockerfile 
+  473  cd ..
+  474  pwd
+  475  cd ../../
+  476  find . -name ejjs
+  477  find . -name ejjs
+  478  find / -name ejjs
+  479  cd
+  480  cd Cloud/ejjs/
+  481  docker container list
+  482  docker exec -it wizardly_fermi /bin/bash
+  483  exit
+  484  cd Cloud/
+  485  ls
+  486  cd ejjs
+  487  pwd
+  488  npm test
+  489  node -v
+  490  npm prune
+  491  mpm install
+  492  npm install
+  493  pwd
+  494  node -v
+  495  npm start
+  496  pwd
+  497  ls -la
+  498  cd ..
+  499  ls -la
+  500  docker ps
+  501  pwd
+  502  ls
+  503  cd Cloud/
+  504  ls
+  505  ls -la
+  506  cd oscar-docker/
+  507  ls -la
+  508  pwd
+  509  docker ps
+  510  $history
+  511  $ history
+  512  history
+  513  history > sal

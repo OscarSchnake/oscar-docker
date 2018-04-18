@@ -1,0 +1,41 @@
+{
+  "name": "ejjs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Aplicación de prueba para test unitario e integración continua",
+  "main": "app.js",
+  "author": "OSV",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "eslint-plugin-promise": "^3.5.0",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "gps": "^0.2.0",
+    "https": "^1.0.0",
+    "moment": "^2.17.1",
+    "moment-timezone": "^0.5.11",
+    "pg": "^6.1.2",
+    "pg-pool": "^1.7.1",
+    "pg-promise": "^5.5.3",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0",
+    "sprintf-js": "^1.1.1",
+    "winston": "^2.3.1"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "node test/testrunner.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-react": "^7.0.1",
+    "json-loader": "^0.5.4",
+    "webpack": "^2.2.1"
+  }
+}
